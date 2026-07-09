@@ -3,6 +3,7 @@ name: "Publish Collector Lambda layer"
 on:
   ##workflow_dispatch:
   push:
+    branches: "renovate/opentelemetry-deps-collector"
     inputs:
       architecture:
         description: 'Architecture of the layer to be published'
