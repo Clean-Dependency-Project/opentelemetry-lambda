@@ -1,8 +1,8 @@
 name: "Publish Collector Lambda layer"
 
-
 on:
-  workflow_dispatch:
+  ##workflow_dispatch:
+  push:
     inputs:
       architecture:
         description: 'Architecture of the layer to be published'
